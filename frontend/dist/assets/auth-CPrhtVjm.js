@@ -1,0 +1,1 @@
+import{q as r}from"./index-W7rdWWRi.js";function a(t){return r.post("/api/auth/login",t)}function e(){return r.get("/api/auth/users")}function n(t){return r.post("/api/auth/users",t)}export{n as c,e as g,a as l};

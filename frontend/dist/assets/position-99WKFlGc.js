@@ -1,0 +1,1 @@
+import{q as i}from"./index-W7rdWWRi.js";function a(){return i.get("/api/position/list")}function s(t){return i.post("/api/position/add",t)}function e(t,o){return i.put("/api/position/update",o,{params:{pos_id:t}})}function p(t){return i.delete("/api/position/delete",{params:{pos_id:t}})}export{s as a,p as d,a as g,e as u};
